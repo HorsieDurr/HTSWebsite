@@ -69,7 +69,7 @@ body{
 
 #content{
 	width: 995px;
-	height: 1750px;
+	height: 1200px;
 	margin: 50px;
 	margin-right: auto;
 	margin-left: auto;
@@ -86,7 +86,7 @@ body{
 
 #center{
 	width: 464px;
-	height:1600px;
+	height:850px;
 	float: left;
 	padding-top: 0px;
 	padding-bottom: 0px;
@@ -147,7 +147,7 @@ body{
    margin: 0; 
    padding: 0; 
    float: left; 
-   width: 100%; 
+   width: 75%; 
    background: #99CC99; 
    font: 70% Verdana, Helvetica, sans-serif;
 }
