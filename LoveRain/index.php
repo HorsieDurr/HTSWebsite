@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="sv" lang="sv">    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html charset=utf-8" />
+        <link rel="stylesheet" title="magnum" type="text/css" href="../CSS/jonas.css" />
+		<link rel="alternate stylesheet" title="none" type="text/css" href="../CSS/empty.css.css" />	  
+        <title>사랑비</title>	
+    </head>
+    <body>
+        <div id="content">
+            <div id="top">
+               <div id="banner" ></div>
+<img src="header1.jpg" alt="some_text" width="995" height="325">
+            </div>
+            <div id="left">
+					<div class="dokument-item">
+						Vänster kolumn!
+					</div>
+            </div>
+            <div id="center">
+
+<div class="meny">
+<ul>
+<li><a href="index.html">Start</a></li>
+<li><a href="characters.html">Karaktärer</a></li>
+<li><a href="sida2.php">Avsnitt</a></li>
+<li><a href="Soundtrack.html"> Soundtrack</a></li>
+<li><a href="sida4.php">Forum</a></li>
+</ul>
+</div>
+				
+                <div id="info">
+
+				<h1 class="dokument-item-header"> Välkommen till LovaRain <h1>
+				<h3 class="info">"Love Rain" skildrar en historia om en ren kärlek under 1970-talet och en kärlek från nutid<h3>
+				<h5 class="plot"><p><h4><em>1970:</em></h4></p>
+In-Ha (Jang Keun-Suk) är en konststudent. In-Ha och hans vänner Dong-wook (Kim Shi-Hoo), en medicinare, och Chang-Mo (SEO i-Guk), en juridikstuderande, är populära i skolan, särskilt med kvinnor. In-Ha, Dong-Wook och Chang-Mo spelar också gitarr och sjunga tillsammans.
+En dag passerar In-Ha studenten Yoon-Hee (Yoona) på campus. Det tar inte mer än 3 sekunder för 
+In-Ha att bli kär i Yoon-Hee. Han ser senare Yoon-Hee sitter på en bänk, han börjar direkt måla hennes porträtt, men nästa sekund är hon borta. In-Ha är fast besluten att hitta henne, och i sin upphetsning, springer han rakt in i Yoon-Hee. Yoon-Hee tappar vad hon håller. In-Ha hjälper Yoon-Hee att plocka upp hennes grejer, men säger inte något till henne. När hon går, upptäcker In-Ha en liten anteckningsbok som hon lämnat efter sig, hennes dagbok. På natten, öppnar In-Ha dagboken och läser en sida. Han får veta att Yoon-hee föräldrar dog och hon älskar den amerikanska filmen "Love Story". Nästa dag, väntar In-Ha på henne utanför campus för att lämna tillbaka hennes dagbok. När han vänder sig om och ska gå kommer Yoon-Hee och frågar om han har sett hennes anteckningsbok. Men han hinner inte säga något innan Yoon-Hee springer vidare, utan sin dagbok. In-Ha läser sedan mer från hennes dagbok, denna gång från framsidan till baksidan flera gånger.
+En regnig dag, ser In-Ha Yoon-Hee står framför byggnaden utan paraply. In-Ha erbjuder henne att gå tillsammans under med hans paraply. När de går tillsammans de känner ett band. En date den följande söndagen bestäms för att titta på filmen "Love Story".
+Senare tar Dong-Wook, In-Ha och Chang-Mo till en restaurang. Dong-Wook frågar-Ha och Chang-Mo att hjälpa honom komma närmare Yoon-Hee. Dong-Wook träffade Yoon-Hee dagen innan och blev också kär i henne. Hon påminner honom om hans bortgångna mor. På grund av detta frågade 
+Dong-Wook sin vän Hye-Jung (Son Eun-Seo) för att få Yoon-Hee till sammankomsten på restaurang.
+<p></p><p><h4><em>Nu Tid:</em></h4></p>
+På en tågstation i Hokkaido, Japan, stöter Joon (Jang Keun-Suk) och Ha-Na (Yoona) på varandra. 
+Ha-Na: s mobiltelefon faller ner i Joon ficka utan att någon märker det. Joon är fotograf och en playboy. Han kom till Hokkaido för en fotosession. Ha-Na är en student som studerar i Hokkaido och ska resa tillbaka till Sydkorea.
+Senare hör Joon en udda ringsignal. Joon inser då att han har någon annans mobiltelefon i fickan. Samtidigt går Ha-Na till platsen för Joon’s fotosession för att hämta sin mobiltelefon, men Joon är inte där. På grund av Joon’s hektiska schema missar Ha-Na är han tre gånger. Slutligen går Ha-Na till Joon s hotell. Efter att ha väntat tills efter midnatt i hotellets lobby, beslutar sig Ha-Na för att gå in Joon s hotellrum för att hämta sin mobiltelefon. Ingen är i rummet och dörren är olåst. Ha-Na hittar sin mobiltelefon, men plötsligt kommer Joon och en modell genom dörren ...
+<h5>
+</div>
+</div>
+            <div id="right">
+					Höger kolumn!!!
+            </div>
+
+			<div id="footer">
+				<p> &copy; 2013 Jonas Olsen. 
+				</p>
+			</div>
+        </div>
+    </body>
+</html>
