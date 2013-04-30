@@ -15,7 +15,7 @@
             </div>
             <div id="left">
 					<div class="dokument-item">
-						Vänster kolumn!
+						<br/>
 					</div>
             </div>
             <div id="center">
@@ -24,9 +24,8 @@
 <ul>
 <li><a href="index.html">Start</a></li>
 <li><a href="characters.html">Karaktärer</a></li>
-<li><a href="sida2.php">Avsnitt</a></li>
 <li><a href="Soundtrack.html"> Soundtrack</a></li>
-<li><a href="sida4.php">Forum</a></li>
+<li><a href="login.html">Logga In</a></li>
 </ul>
 </div>
 				
@@ -49,7 +48,7 @@ Senare hör Joon en udda ringsignal. Joon inser då att han har någon annans mo
 </div>
 </div>
             <div id="right">
-					Höger kolumn!!!
+			
             </div>
 
 			<div id="footer">
