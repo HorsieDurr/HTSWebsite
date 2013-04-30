@@ -110,22 +110,21 @@ Nedan följer en ungefärlig planering för databasarbetet som du kan följa. Du
 <li> Gör gärna ändringar på färg, teckensnitt, tjocklek och typ av linje samt tecken effekter. Se lathunden för CSS, där kan du få inspiration. Men var försiktig med att ändra ”margin”, ”padding”, "height " och "width" egenskaperna eftersom det kan göra så layouten blir dålig.</li>
 </ul>
 </li>
-<li class="closed" ><h4>Skapa en sida för varje tabell.</h4>
+<li class="closed" ><h4>Skapa en sida för en tabell.</h4>
 <ul>
 <li> Välj en tabell vars innehåll en användare av sajten behöver se.</li>
 <li> Kopiera en gammal sida som du vill utgå ifrån. Välj ett lämpligt namn.</li>
 <li> Eftersom vi ska ha med php kod, så döp om sidan så att den får filändelsen ”.php”.</li>
-<li> Kopiera en gammal sida som du vill utgå ifrån. Välj ett lämpligt namn.</li>
-<li>Modifiera sidan så den passar in i din sajt och den uppgift som den har.</li>
+<li> Modifiera sidan så den passar in i din sajt och den uppgift som den har.</li>
 <li> Till att börja med så måste vi ansluta till databasen. Kopiera filen ”File/connect.php” till din mapp.</li>
 <li> Öppna filen ”connect.php”. Du hittar en rad <code>$database="test"; </code>. Denna rad avgör vilken databas du ska öppna. </li>
-<li>Byt ut ”test” mot namnet på din databas.   </li>
+<li> Byt ut ”test” mot namnet på din databas.   </li>
 <li> Kopiera nu den översta koden i snippet  ”connection-to-databas.php” och lägg den överst i den sida där du vill ha tabellen.</li>
 <li> Kopiera in koden i snippet ”SQL-list.php” till där det passar att du visar upp en tabell på sidan.</li>
 <li> Nu ska du ändra i ”question”  variabeln så du får  rätt tabellnamn i din SQL-fråga.</li>
 </ul>
 </li>
-<li class="closed" ><h4>Skapa ett formulär för varje tabell.</h4>
+<li class="closed" ><h4>Skapa ett formulär för en tabell.</h4>
 <ul>
 <li> Bestäm en tabell som du vill lägga in värden som användaren av din sajt skriver in. </li>
 <li> Kopiera en sida att utgå ifrån, antingen din index sida eller någon ifrån template mappen. </li>
@@ -135,7 +134,7 @@ Nedan följer en ungefärlig planering för databasarbetet som du kan följa. Du
 <li> Observera att du ska ändra attributet namn på varje input-element, så att input elementet får ett unikt namn. Namnet ska också gärna förklara vad för data man ska skriva in i input-elementet.</li>
 <li> Försök att få formuläret att se snyggt ut, använd ”<br />” eller ”<span  />” för att anpassa inskrivningsfälten till varandra. </li>
 <li> Bestäm vilken fil som ska ta emot data ifrån formuläret.  Det kan vara filen som du har formuläret du skrivit in eller någon annan fil.</li>
-<li>Kopiera koden ifrån snippet login.php till filen du valt.</li>
+<li>Kopiera koden ifrån snippet input.php till filen du valt.</li>
 <li> I den första if-satsen lägg till alla namn från input-elementen.</li>
 <li> Anpassa SQL-frågan så att den stämmer överens med din tabell. Experimentera gärna med MyPHPadmin för att hitta rätt fråga.</li>
 </ul>
