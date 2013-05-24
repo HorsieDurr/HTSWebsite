@@ -1,4 +1,10 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+﻿<?php
+session_start();
+if(!isset($_SESSION['session_user'])){
+	header('Location: login.php');
+	?>
+	
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
 		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="sv" lang="sv">    
     <head>
@@ -25,7 +31,7 @@
 <li><a href="index.html">Start</a></li>
 <li><a href="characters.html">Karaktärer</a></li>
 <li><a href="Soundtrack.html"> Soundtrack</a></li>
-<li><a href="login.html">Logga In</a></li>
+<li><a href="sok.php"> Sök</a></li>
 </ul>
 </div>
 				

@@ -2,7 +2,11 @@
 <?php
 
 include '../LoveRain/connect.php';
-         $query = "SELECT name FROM loverain WHERE name='$_POST[myUser]' AND password='$_POST[myPassword]'";
+
+$Hej=$_POST[myPassword];
+$Heej=md5($Hej);
+
+         $query = "SELECT name FROM loverain WHERE name='$_POST[myUser]' AND password='$Heej'";
          //echo '<em> ' . $query . ' </em>';
          $result = mysql_query($query);
          if (mysql_numrows($result) == 1) {

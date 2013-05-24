@@ -1,6 +1,9 @@
 <?php
 include '../LoveRain/connect.php';
-             $query = "INSERT INTO loverain (name, password) VALUES ('$_POST[myUser]', '$_POST[myPassword]')";
+
+$Hej=$_POST[myPassword];
+$Heej=md5($Hej);
+             $query = "INSERT INTO loverain (name, password) VALUES ('$_POST[myUser]', '$Heej')";
              
              $result = mysql_query($query);
              if ($result === false) {
