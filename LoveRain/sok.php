@@ -40,7 +40,8 @@ if(!isset($_SESSION['session_user'])){
 
 				<h1 class="dokument-item-header"><h1>
 				<h3 class="info"><h3>
-				<h5 class="plot"><form action="sok.php" method="post" > 
+				<h5 class="plot">
+				<form action="sok.php" method="post" > 
 				
 <p id = "infoSok">Sök på användarnamn! <br />
 
@@ -58,13 +59,13 @@ if (isset($_POST['soktAnv'])) {
 $soktVar = $_POST['soktAnv'];
 
 
-// mysql injections???????
+
 $soktVar = stripslashes($soktVar);
 $soktVar = mysql_real_escape_string($soktVar);
 
 
 $query = "SELECT name FROM loverain WHERE name = '$soktVar' OR name LIKE '%$soktVar%'";
-//echo '<em> ' . $query . ' </em>';
+
 $result = mysql_query($query);
 if ($result === false) {
 echo "<strong> Error when you asked a question to your databas. " . mysql_errno . " : <br />" . mysql_error . "</strong>";
